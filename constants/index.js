@@ -188,3 +188,16 @@ export const socials = [
     url: '/facebook.svg',
   },
 ];
+
+export const equipments = [
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e2_g2kork.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e3_ftaicp.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e1_vgawmv.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e6_knwelr.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270601/ecell/MURL/e9_qqb5no.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e5_hlaz5m.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e4_zpgvup.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270630/ecell/MURL/e8_smpkck.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270599/ecell/MURL/e10_tmuvep.jpg',
+  'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270599/ecell/MURL/e11_vvo9sg.jpg',
+];

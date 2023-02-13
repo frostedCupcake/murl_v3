@@ -20,7 +20,7 @@ const Collaborators = () => {
       >
         <motion.h1
           variants={textVariant(1.1)}
-          className="font-normal lg:text-[70px] sm:text-[45px] text-[40px]  uppercase text-white tracking-wide mb-[3rem] lg:mb-[4rem]"
+          className="font-normal lg:text-[70px] sm:text-[45px] text-[35px]  uppercase text-white tracking-wide mb-[3rem] lg:mb-[4rem]"
         >
           Collaborators
         </motion.h1>
