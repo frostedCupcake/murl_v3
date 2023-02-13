@@ -20,7 +20,7 @@ const TeamCard = ({
         <span className="font-bold">{name}</span>
       </h3>
       <h4 className={styles.teamDisc}>
-        {currentDesignation[0]}
+        {currentDesignation[1]}
         {', '}
         <span className="font-bold">{currentDesignation[1]}</span>
       </h4>

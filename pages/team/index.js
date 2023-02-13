@@ -33,27 +33,11 @@ const page = () => {
             Principal Investigator
           </motion.h1>
           <TeamCard
-            img={teamData[0].img}
-            name={teamData[0].name}
-            currentDesignation={teamData[0].currentDesignation}
-            prevDesignation={teamData[0].prevDesignation}
-            email={teamData[0].email}
-          />
-        </motion.div>
-
-        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
-          <motion.h1
-            variants={textVariant(1.2)}
-            className="font-thin xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
-          >
-            Post-Doctoral Fellows
-          </motion.h1>
-          <TeamCard
-            img={teamData[1].img}
-            name={teamData[1].name}
-            currentDesignation={teamData[1].currentDesignation}
-            prevDesignation={teamData[1].prevDesignation}
-            email={teamData[1].email}
+            img={teamData[0].PI.img}
+            name={teamData[0].PI.name}
+            currentDesignation={teamData[0].PI.currentDesignation}
+            prevDesignation={teamData[0].PI.prevDesignation}
+            email={teamData[0].PI.email}
           />
         </motion.div>
         <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
@@ -63,21 +47,52 @@ const page = () => {
           >
             Doctoral Fellows
           </motion.h1>
-
-          <TeamCard
-            img={teamData[2].img}
-            name={teamData[2].name}
-            currentDesignation={teamData[2].currentDesignation}
-            prevDesignation={teamData[2].prevDesignation}
-            email={teamData[2].email}
-          />
-          <TeamCard
-            img={teamData[3].img}
-            name={teamData[3].name}
-            currentDesignation={teamData[3].currentDesignation}
-            prevDesignation={teamData[3].prevDesignation}
-            email={teamData[3].email}
-          />
+          {teamData[1].DOC.map((item, i) => (
+            <TeamCard
+              img={item.img}
+              name={item.name}
+              currentDesignation={item.currentDesignation}
+              prevDesignation={item.prevDesignation}
+              email={item.email}
+              key={item.name}
+            />
+          ))}
+        </motion.div>
+        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
+          <motion.h1
+            variants={textVariant(1.2)}
+            className="font-thin xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
+          >
+            Masters students
+          </motion.h1>
+          {teamData[2].MASTERS.map((item, i) => (
+            <TeamCard
+              img={item.img}
+              name={item.name}
+              currentDesignation={item.currentDesignation}
+              prevDesignation={item.prevDesignation}
+              email={item.email}
+              key={item.name}
+            />
+          ))}
+        </motion.div>
+        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
+          <motion.h1
+            variants={textVariant(1.2)}
+            className="font-thin xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
+          >
+            Doctoral Fellows
+          </motion.h1>
+          {teamData[1].DOC.map((item, i) => (
+            <TeamCard
+              img={item.img}
+              name={item.name}
+              currentDesignation={item.currentDesignation}
+              prevDesignation={item.prevDesignation}
+              email={item.email}
+              key={i}
+            />
+          ))}
         </motion.div>
       </motion.div>
     </section>

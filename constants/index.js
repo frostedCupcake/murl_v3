@@ -31,41 +31,148 @@ export const colaboratorsData = [
 
 export const teamData = [
   {
-    img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1671092063/ecell/MURL/avinash_on3net.png',
-    name: 'Avinash Eranki, Ph.D.',
-    currentDesignation: [
-      'Assistant Professor, Department of Biomedical Engineering',
-      'IIT Hyderbad, India',
-    ],
-    prevDesignation: [
-      'Ph.D in Medical Imaging/Electrical Engineering',
-      'Utrecht University',
-    ],
-    email: 'aeranki [at] bme.iith.ac.in',
+    PI: {
+      img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1671092063/ecell/MURL/avinash_on3net.png',
+      name: 'Avinash Eranki, Ph.D.',
+      currentDesignation: [
+        'Assistant Professor, Department of Biomedical Engineering',
+        'IIT Hyderbad, India',
+      ],
+      prevDesignation: [
+        'Ph.D in Medical Imaging/Electrical Engineering',
+        'Utrecht University',
+      ],
+      email: 'aeranki [at] bme.iith.ac.in',
+    },
   },
   {
-    img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1671115722/ecell/MURL/meenu_b4v0jk.webp',
-    name: 'Meenu Agrawal, Ph.D.',
-    currentDesignation: ['Ph.D. in Mechanical Engineering', 'IIT Hyderabad'],
-    prevDesignation: ['M.Tech in Mechanical Engineering', 'IIT Hyderabad'],
-    email: 'ms.meenuagrawal [at] gmail.com',
-  },
-  {
-    img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1671182752/ecell/MURL/Screenshot_from_2022-12-16_14-54-49_jwfhyz.png',
-    name: 'Mr. Vigneshwaran G',
-    currentDesignation: ['M.Sc in Medical Genetics', 'University of Madras'],
-    prevDesignation: ['B.Sc in Biotechnology', 'VISTAS, Vels University'],
-    email: 'bm21resch01007 [at] iith.ac.in ',
-  },
-  {
-    img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1671182752/ecell/MURL/Screenshot_from_2022-12-16_14-55-08_ol0gga.png',
-    name: 'Mr. Aniket Sabale',
-    currentDesignation: [
-      'M.Tech in Mechatronics Engineering',
-      'National Institute of Technology Karnataka',
+    DOC: [
+      {
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290548/ecell/MURL/t1_1_icrodi.png',
+        name: 'Mr. Aniket Sabale',
+        currentDesignation: [
+          'M.Tech in Mechatronics Engineering',
+          'National Institute of Technology Karnataka',
+        ],
+        prevDesignation: [
+          'B.Tech in Mechanical Engineering',
+          'Pune University',
+        ],
+        expertise: 'Computational mechanical simulations',
+        l_link: 'https://www.linkedin.com/in/aniket-arun-sabale-734b54216/',
+        email: 'bm20resch11004@iith.ac.in',
+      },
+      {
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290548/ecell/MURL/t2_1_rmacjn.jpg',
+        name: 'Mr. Vigneshwaran G',
+        currentDesignation: [
+          'M.Sc in Medical Genetics',
+          'University of Madras',
+        ],
+        prevDesignation: ['B.Sc in Biotechnology', 'VISTAS, Vels University'],
+        expertise: 'Ultrasound-assisted liquid biopsy and Oncogenomics',
+        email: 'bm21resch01007@iith.ac.in',
+        l_link: 'https://www.linkedin.com/in/prof-vigneshwaran/',
+      },
+      {
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290547/ecell/MURL/t3_1_l7wkli.jpg',
+        name: 'Ms Megha R',
+        currentDesignation: [
+          'M.E in Biomedical Engineering',
+          'College of Engineering, Guindy, Anna University',
+        ],
+        prevDesignation: [
+          'B.E in Biomedical Engineering',
+          'PSG College of Technology, Anna University',
+        ],
+        expertise: 'Tumor 3D image segmentation',
+        email: 'bm21resch11002@iith.ac.in',
+      },
+      {
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290547/ecell/MURL/t4_1_p4f8vy.jpg',
+        name: 'Ms Shradha Suman Panda',
+        currentDesignation: [
+          'M.Tech in Medical Technologies',
+          'IIT Jodhpur - AIIMS Jodhpur',
+        ],
+        prevDesignation: [
+          'B.Tech in Biomedical Engineering',
+          'SRMIST, SRM  University',
+        ],
+        email: 'bm22resch11008@iith.ac.in',
+        expertise: 'Computational biomechanics',
+        l_link: 'https://www.linkedin.com/in/shradhasumanpanda',
+      },
     ],
-    prevDesignation: ['B.Tech in Mechanical Engineering', 'Pune University'],
-    email: 'bm20resch11004 [at] iith.ac.in',
+  },
+
+  {
+    MASTERS: [
+      {
+        img: '',
+        name: 'Mr Shaswata Chowdhury',
+        currentDesignation: [
+          'Application Engineer (2016-19)',
+          'Adroitec Information Systems',
+        ],
+        prevDesignation: [
+          'B.Tech in Electrical Engineering',
+          'KIIT University',
+        ],
+        email: 'bm21mtech14014@iith.ac.in',
+        l_link: 'https://www.linkedin.com/in/shaswata-chowdhury-9437a199',
+        expertise: 'Printed sensors',
+      },
+      {
+        img: '',
+        name: 'Mr G.Prithvi Shankar',
+        currentDesignation: [
+          'B.Tech in Biomedical Engineering',
+          'SRMIST, SRM  University',
+        ],
+        expertise: 'Degassing',
+        email: 'bm21mtech14012@iith.ac.in',
+        l_link: 'https://www.linkedin.com/in/g-prithvi-shankar-79a651165',
+      },
+    ],
+  },
+  {
+    STAFF: [
+      {
+        img: '',
+        name: 'Mr Muhammed Fahiz KP',
+        currentDesignation: ['Fab academy graduate', 'Super Fab Lab Kochi'],
+        email: 'm.fahiz@bme.iith.ac.in',
+        position: 'Engineer',
+        l_link: 'https://www.linkedin.com/in/muhammed-fahiz-kp/',
+      },
+      {
+        img: '',
+        name: 'Mr Pulla Prashanth',
+        currentDesignation: ['Lecturer (2017-19)', 'TRR College of Technology'],
+        prevDesignation: [
+          'B.Tech in Electronics and Communication Engineering',
+          'Kakatiya Institute of Technology and Science',
+        ],
+        email: 'prashanth.p@bme.iith.ac.in',
+        position: 'Junior Technician',
+        l_link: 'https://www.linkedin.com/in/pulla-prashanth-b26475237/',
+      },
+    ],
+  },
+  {
+    RESEARCH: [
+      {
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290548/ecell/MURL/t9_1_qjwcin.png',
+        name: 'Meenu Agrawal, Ph.D.',
+        currentDesignation: [
+          'Ph.D. in Mechanical Engineering',
+          'IIT Hyderabad',
+        ],
+        prevDesignation: ['M.Tech in Mechanical Engineering', 'IIT Hyderabad'],
+        email: 'ms.meenuagrawal [at] gmail.com',
+      },
+    ],
   },
 ];
 
