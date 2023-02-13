@@ -5,16 +5,12 @@ import styles from '../styles';
 const TeamCard = ({
   img,
   name,
-  currentDesignation,
-  prevDesignation,
+  currentDesignation = ['', ''],
+  prevDesignation = ['', ''],
   email,
 }) => (
   <div className="flex md:flex-row flex-col md:gap-20 gap-5 my-20 z-100 items-center justify-center w-[20rem] md:w-[50rem] text-left mx-auto">
-    <img
-      src={img}
-      alt={name}
-      className="object-cover w-60 rounded-md shadow-lg"
-    />
+    <img src={img} alt={name} className=" w-60  rounded-md shadow-lg" />
     <div className="flex flex-col gap-3">
       <h3 className={styles.teamDisc}>
         <span className="font-bold">{name}</span>

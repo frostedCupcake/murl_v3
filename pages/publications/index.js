@@ -1,12 +1,10 @@
-"use client";
+import { motion } from 'framer-motion';
 
-import { motion } from "framer-motion";
-
-import styles from "../../styles";
-import React from "react";
-import { fadeIn, staggerContainer, textVariant } from "../../utils/motion";
-import PublicationCard from "../../components/PublicationCard";
-import { publicationData } from "../../constants";
+import styles from '../../styles';
+import React from 'react';
+import { fadeIn, staggerContainer, textVariant } from '../../utils/motion';
+import PublicationCard from '../../components/PublicationCard';
+import { publicationData } from '../../constants';
 
 const page = () => {
   return (
@@ -25,7 +23,7 @@ const page = () => {
         >
           PUBLICATIONS
         </motion.h1>
-        <motion.div variants={fadeIn("up", "tween", 0.2, 1)}>
+        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
           {publicationData.map((item) => (
             <PublicationCard
               name={item.name}

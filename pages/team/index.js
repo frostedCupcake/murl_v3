@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from 'framer-motion';
 
 import styles from '../../styles';
@@ -81,16 +79,17 @@ const page = () => {
             variants={textVariant(1.2)}
             className="font-thin xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
           >
-            Doctoral Fellows
+            Staff
           </motion.h1>
-          {teamData[1].DOC.map((item, i) => (
+          {console.log(teamData[2])}
+          {teamData[3].STAFF.map((item, i) => (
             <TeamCard
               img={item.img}
               name={item.name}
               currentDesignation={item.currentDesignation}
               prevDesignation={item.prevDesignation}
               email={item.email}
-              key={i}
+              key={item.name}
             />
           ))}
         </motion.div>

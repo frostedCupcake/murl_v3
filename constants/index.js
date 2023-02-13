@@ -109,7 +109,7 @@ export const teamData = [
   {
     MASTERS: [
       {
-        img: '',
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290547/ecell/MURL/t5_1_stxyid.jpg',
         name: 'Mr Shaswata Chowdhury',
         currentDesignation: [
           'Application Engineer (2016-19)',
@@ -124,7 +124,7 @@ export const teamData = [
         expertise: 'Printed sensors',
       },
       {
-        img: '',
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290547/ecell/MURL/t6_1_lxfzaf.jpg',
         name: 'Mr G.Prithvi Shankar',
         currentDesignation: [
           'B.Tech in Biomedical Engineering',
@@ -139,7 +139,7 @@ export const teamData = [
   {
     STAFF: [
       {
-        img: '',
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676328777/ecell/MURL/image_4_tja0xi.png',
         name: 'Mr Muhammed Fahiz KP',
         currentDesignation: ['Fab academy graduate', 'Super Fab Lab Kochi'],
         email: 'm.fahiz@bme.iith.ac.in',
@@ -147,7 +147,7 @@ export const teamData = [
         l_link: 'https://www.linkedin.com/in/muhammed-fahiz-kp/',
       },
       {
-        img: '',
+        img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290547/ecell/MURL/t8_1_ihipoa.jpg',
         name: 'Mr Pulla Prashanth',
         currentDesignation: ['Lecturer (2017-19)', 'TRR College of Technology'],
         prevDesignation: [
