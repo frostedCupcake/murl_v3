@@ -34,7 +34,7 @@ const page = () => {
                     : item.img
                 }
                 alt={item.name}
-                className=" w-80 h-80 rounded-sm shadow-lg"
+                className=" w-[22rem] rounded-sm shadow-lg"
               />
               <div className="flex flex-col gap-5 text-center lg:text-left">
                 <h3 className="text-white font-bold text-sm tracking-wide pt-1 md:text-xl ">

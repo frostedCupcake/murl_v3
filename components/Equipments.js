@@ -93,7 +93,7 @@ const Slider = () => {
         >
           {equipments.map((item, i) => (
             <SwiperSlide key={i}>
-              <img src={item} className={'overlfow-hidden rounded-md'} />
+              <img src={item} className={'overlfow-hidden rounded-sm'} />
             </SwiperSlide>
           ))}
         </Swiper>

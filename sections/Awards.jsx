@@ -1,9 +1,17 @@
 'use client';
+import { events } from '@/constants';
 import { motion } from 'framer-motion';
 import { TypingText } from '../components';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+// swiper imports
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -16,24 +24,24 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col my-2`}
     >
       <TypingText title="EVENTS" textStyles="text-center" />
-
-      <motion.p
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[25px] text-[16px] text-left text-secondary-white"
+      <Swiper
+        className="mySwiper w-[100%]"
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        grabCursor={true}
+        modules={[Autoplay]}
       >
-        1. Dr. Avinash Eranki was awarded the '
-        <span className="font-extrabold text-white">
-          2020 Bracco Imaging Distinguished Young Investigator Award
-        </span>
-        ' in November 2020 by the Focused Ultrasound Foundation and, Bracco
-        Suisse SA for his scientific contributions to the field.
-        <br />
-        2. Editorial Board member of Ultrasound in{' '}
-        <span className="font-extrabold text-white">
-          Medicine and Biology Journal
-        </span>{' '}
-        since 2018.
-      </motion.p>
+        {events.map((item, index) => (
+          <SwiperSlide key={index}>
+            <p className=" font-normal sm:text-[25px] text-[16px] text-left text-secondary-white">
+              {item}
+            </p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </motion.div>
     <motion.div
       variants={staggerContainer}

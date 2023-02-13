@@ -201,3 +201,8 @@ export const equipments = [
   'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270599/ecell/MURL/e10_tmuvep.jpg',
   'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676270599/ecell/MURL/e11_vvo9sg.jpg',
 ];
+
+export const events = [
+  'Dr. Avinash Eranki was awarded the 2020 Bracco Imaging Distinguished Young Investigator Award in November 2020 by the Focused Ultrasound Foundation and, Bracco Suisse SA for his scientific contributions to the field.',
+  'Editorial Board member of Ultrasound in Medicine and Biology Journal since 2018.',
+];
